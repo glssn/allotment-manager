@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Menu } from "antd";
-import { HomeOutlined, BuildOutlined, UserOutlined } from '@ant-design/icons';
+import { HomeOutlined, BuildOutlined, UserOutlined, OrderedListOutlined } from '@ant-design/icons';
 // import Addtrade from "./components/addtrade";
 // import Notifications from "./components/notifications";
 
@@ -24,7 +24,11 @@ const Header = () => (
         <span>Users</span>
         <Link to="/users" />
       </Menu.Item>
-
+      <Menu.Item key="4">
+        <OrderedListOutlined />
+        <span>Waiting list</span>
+        <Link to="/waiting" />
+      </Menu.Item>
     </Menu>
   </>
 );

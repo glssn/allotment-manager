@@ -5,9 +5,12 @@
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
     "antd": "^4.16.6",
+    "leaflet": "^1.7.1",
+    "path": "^0.12.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-flexbox-grid": "^2.1.2",
+    "react-leaflet": "^3.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.1"
   },
@@ -20,16 +23,9 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "browserslist": {
-    "production": [
+  "browserslist": [
       ">0.2%",
       "not dead",
       "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
     ]
-  }
 }
